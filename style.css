@@ -1,0 +1,184 @@
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+h1{font-size: 60px; font-weight: 600; line-height: 80px;}
+h2{font-size: 48px; margin-bottom: 30px;}
+h5{margin-bottom: 0px;}
+
+p{
+	font-size: 18px;
+	color: #999999;
+	line-height: 1.8;
+	margin-bottom: 0;
+}
+
+
+a:hover{
+	text-decoration: none;
+}
+
+section{
+	padding: 120px 0;
+}
+
+.bg-light-grey{background-color: #f5f5f5;}
+
+
+
+
+.topmargin-cs{margin-top: 15px;!important;}
+.topmargin-sm{margin-top: 30px;!important;}
+.topmargin-lg{margin-top: 60px;!important;}
+
+
+.btn{
+	font-size: 14px;
+	padding: 15px 26px;
+	min-width: 160px;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+
+.btn.light{
+	background-color: #ffffff;
+	color: #1a1a1a;
+	border: 2px solid #ffffff;
+}
+
+.btn i {font-size: 14px; margin-left: 5px;}
+
+.full-width{
+	width: 100%;
+}
+
+.form-control{
+	font-size: 14px;
+	border: 1px solid #cacaca;
+	padding: 15px;
+	border-radius: 2px;
+	height: auto;
+}
+
+.form-control:focus{
+	border: 1px solid #1a1a1a;
+	outline: none;
+	box-shadow: none;
+}
+
+
+
+
+
+.text-dark{color: #1a1a1a;}
+
+
+
+.navbar{
+	background-color:#ffffff;
+	box-shadow: 0 2px 4px 0 rgba{0,0,0,.05};
+	min-height: 100px;
+}
+
+
+.nav-link{ color:#1a1a1a; }
+.nav-link:hover{color: #1a1a1a;}
+
+
+.logo{
+	min-width: 160px;
+	max-width: 180px;
+}
+
+.navbar-toggler{ font-size: 40px; }
+.navbar-toggler:focus{outline: none;}
+
+#hero{
+	background-image: url('imga/mol.jpg');
+	background-size: cover;
+	padding-top: 90px;
+	min-height: 700px;
+	color: #ffffff;
+}
+
+
+#hero p{
+	color: #ffffff;
+
+}
+
+
+.content-center{
+	max-width: 800px;
+	margin: 0 auto 60px auto;
+	text-align: center;
+}
+
+.portfolio-container{
+	position: relative;
+	overflow: hidden;
+	margin: 10px 0;
+	border-radius: 2px;
+}
+
+.portfolio-container img{
+	-moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+
+.portfolio-container:hover img{
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+
+
+
+.portfolio-details{
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	z-index: 9000;
+}
+
+.portfolio-details h2{
+	margin-bottom: 0px;
+}
+
+.portfolio-details a h2, .portfolio-details a p {
+	color: #000000;
+
+}
+
+.member-container{
+	position: relative;
+	margin: 10px 0;
+}
+
+.member-details{
+	position: absolute;
+	color: #000000;
+	bottom: 0px;
+	left: 20px;
+}
+
+
+
+@media (max-width: 575.98px) { 
+	h1{font-size: 40px; line-height: normal;}
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+
+@media (min-width: 1200px) { ... }
